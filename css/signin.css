@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buceta{
+    margin-bottom:20%;
+    padding-bottom:2%;
+}
+.caceta{
+    margin-top:-6%;
+    margin-bottom:10%;
+}
+.porra{
+    margin-top:-5%;
+}
+
+.btnCad {
+    border-color: lightgray;
+}
+.btnIMG {
+    border-color: transparent;
+}
+}
+
+.btn-style {
+    border-color: #BEF0C8;
+    border-radius: 30px;
+    background-color: #BEF0C8;
+    color: #6a9f72;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-style:hover{
+    background-color:green;
+    color:white;
+}
+.form-signin {
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 2px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center ;
+  color: #6a9f72;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="user"] {
+  margin-bottom: 4px;
+  }
+.form-signin input[type="user"]::placeholder{
+  color: #6a9f72;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  }
+  .form-signin input[type="password"]::placeholder {
+    color: #6a9f72;
+  }
+
+.text{
+  color: #474740;
+  font-size: 60px;
+}
